@@ -1,6 +1,6 @@
 onEvent("button2", "click", function( ) {
 	console.log("button2 clicked!");
-	setScreen("screen3");
+	setScreen("yourdetail");
 });
 var data = {};
 onEvent("Dietprediction_predict", "click", function() {
@@ -17,11 +17,11 @@ onEvent("Dietprediction_predict", "click", function() {
       setText("Dietprediction_prediction", value);
     });
   });
-onEvent("button", "click", function( ) {
+onEvent("button1", "click", function( ) {
 	console.log("button clicked!");
-	setScreen("text");
+	setScreen("Text");
 });
 onEvent("button2", "click", function( ) {
 	console.log("button2 clicked!");
-	setScreen("screen1");
+	setScreen("yourdetail");
 });
